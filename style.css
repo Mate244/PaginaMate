@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(img/Fondo\ gtt.jpg);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.botonwpp{
+    font-size: 2.0em;
+    font-weight: bold;
+    padding: 30px 60px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: white;
+    background-image: url(img/Fondo\ gtt.jpg);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botonwpp:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+header .container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.div-1{
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px outset;
+    border-color: rgb(255, 255, 255);
+    width: 310px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    margin-top: 10px;
+    height: 40px;
+    background-image: url(img/Proto\ 1.png);
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    padding: 12px;
+    color: rgb(255, 246, 246);
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------------- */
+
+
+
+.header{
+    background-image: url(img/Fondo\ gtt.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    padding-top: 200px;
+    height: 180px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 850px){
+
+    #hero img{
+        max-width: fit-content;
+    }
+}
